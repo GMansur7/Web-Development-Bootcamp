@@ -1,4 +1,8 @@
 teste terminal
 teste terminal ssh
 teste vs code com ssh autenticado
+<<<<<<< HEAD
 teste conflito entre maquinas a partir desktop
+=======
+teste apatir do notebook
+>>>>>>> 804afb0079f415a24f4f63f2084c1f3be9b2311f
