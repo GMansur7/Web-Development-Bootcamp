@@ -1,3 +1,4 @@
 teste terminal
 teste terminal ssh
 teste vs code com ssh autenticado
+teste apatir do notebook
