@@ -1,0 +1,104 @@
+.* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #FF4C68;
+    font-family: 'Montserrat' sans-serif;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 900; 
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+}
+
+.navbar {
+    padding: 0 0 5rem;
+
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+} 
+
+.nav-link {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.btn {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 80%;
+    transform: rotate(25deg);
+    padding: 1.5rem;
+    
+}
+
+.fa-solid {
+    color: #EF8172;
+    width: 150px;
+    text-align: center;
+    padding: 15px;
+}
+
+.fa-solid:hover {
+    color: #FF4C68
+}
+
+
+#features h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+#features p {
+    font-family: 'Montserrat', sans-serif;
+    color: #8F8F8F;
+    text-align: center;
+}
+
+.icon-box {
+    text-align: center;
+    margin: 5%;
+}
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+/* h2 {font-family: 'Montserrat', sans-serif;
+}
+
+h3 {font-family: 'Montserrat', sans-serif;
+}
+
+a {font-family: 'Montserrat, sans-serif';  font-size: 3rem;  line-height: 1.5;  font-weight: 900;
+} */
