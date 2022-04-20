@@ -5,9 +5,6 @@
     text-decoration: none;
 }
 
-
-
-
 body {
     font-family: 'Montserrat';
 }
@@ -66,9 +63,10 @@ h3 {
 }
 
 .title-image {
-    width: 80%;
+    width: 20rem;
     transform: rotate(25deg);
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
+    position: absolute;
     
 }
 
@@ -85,6 +83,9 @@ h3 {
 
 #features {
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 #features h2 {
