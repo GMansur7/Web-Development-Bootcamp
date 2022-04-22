@@ -163,16 +163,26 @@ h3 {
         /* right: 24rem;    */
     }
 }
-/* 
-font-family: 'Montserrat', sans-serif;
-font-family: 'Ubuntu', sans-serif; */
 
-
-/* h2 {font-family: 'Montserrat', sans-serif;
+#cta {
+    background-color: #FF4C68;
+    text-align: center;
+    padding: 5% 15%;
 }
 
-h3 {font-family: 'Montserrat', sans-serif;
+#cta h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
 }
 
-a {font-family: 'Montserrat, sans-serif';  font-size: 3rem;  line-height: 1.5;  font-weight: 900;
-} */
+#footer {
+    text-align: center;
+    padding: 5% 15%;
+    font-size: 1.2rem;   
+}
+
+#footer i {
+    padding: 1% 1%;
+}
