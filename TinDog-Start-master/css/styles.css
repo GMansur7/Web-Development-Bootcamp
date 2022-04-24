@@ -11,6 +11,13 @@ body {
     font-family: 'Montserrat';
 }
 
+.big-heading {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 900; 
+    font-size: 3.5rem;  
+    line-height: 1.5; 
+}
+
 #title {
     background-color: #FF4C68;
     font-family: 'Montserrat' sans-serif;
@@ -21,33 +28,19 @@ body {
     padding: 3% 15% 7%;
 }
 
-h1 {
-    font-family: 'Montserrat', sans-serif; 
-    font-weight: 900; 
-    font-size: 3.5rem;  
-    line-height: 1.5;  
-}
-
-h2 {
+h2, h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size:  3rem;
-}
-
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 1,5rem;
-}
+} 
 
 .navbar {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
     padding: 0 0 5rem;
 }
 
 .navbar-brand {
-    font-family: 'Ubuntu', sans-serif;
     font-size: 3rem;
-    font-weight: bold;
 }
 
 .nav-item {
@@ -55,9 +48,7 @@ h3 {
 } 
 
 .nav-link {
-    font-family: 'Ubuntu', sans-serif;
     font-size: 1.4rem;
-    font-weight: bold;
 }
 
 .btn {
@@ -67,7 +58,6 @@ h3 {
 .title-image {
     width: 20rem;
     transform: rotate(25deg);
-    /* padding: 1.5rem; */
     position: absolute;
     right: 24rem;   
 }
@@ -97,8 +87,10 @@ h3 {
 }
 
 #features p {
-    font-family: 'Montserrat', sans-serif;
     color: #8F8F8F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -117,6 +109,10 @@ h3 {
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+.testimonial-text {
+    font-size:  3rem;
 }
 
 .testimonial-image {
@@ -139,7 +135,6 @@ h3 {
     margin: 20px 20px 20px;
 }
 
-
 /* Princing Section */
 
 #pricing {
@@ -147,10 +142,23 @@ h3 {
     text-align: center;
 }
 
+.pricing-head {
+    font-size:  3rem;
+}
+
+.princing-title {
+    font-size: 1,5rem;
+}
+
 .pricing-column {
     padding: 3% 2%;
 }
 
+/* Call to Action */
+
+.cta-text {
+    font-size: 1,5rem;
+}
 
 #cta {
     background-color: #FF4C68;
@@ -159,9 +167,7 @@ h3 {
 }
 
 #cta h3 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
-    font-weight: bold;
     color: white;
 }
 
@@ -186,6 +192,5 @@ h3 {
         transform: rotate(0deg);
         position: static;
         text-align: center;
-        /* right: 24rem;    */
     }
 }
