@@ -151,20 +151,6 @@ h3 {
     padding: 3% 2%;
 }
 
-@media (max-width: 1400px) {
-
-    #title {
-        text-align: center;
-    }
-
-    .title-image {
-        width: 20rem;
-        transform: rotate(0deg);
-        position: static;
-        text-align: center;
-        /* right: 24rem;    */
-    }
-}
 
 #cta {
     background-color: #FF4C68;
@@ -187,4 +173,19 @@ h3 {
 
 #footer i {
     padding: 1% 1%;
+}
+
+@media (max-width: 1400px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        width: 20rem;
+        transform: rotate(0deg);
+        position: static;
+        text-align: center;
+        /* right: 24rem;    */
+    }
 }
